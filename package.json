@@ -1,0 +1,21 @@
+{
+  "name": "spiraltreeframe",
+  "version": "1.0.0",
+  "description": "draws spiral tree frames",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dev/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "author": "martin jakubik",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "learnhypertext": "^2.1.0",
+    "monifesto": "^1.4.0"
+  }
+}
